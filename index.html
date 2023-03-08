@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARD PROFILE</title>
+    <link rel="stylesheet" href="asset/style.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+        <!--Dark mode-->
+      <div class="darkmode">
+        <center>
+          <a onclick="darkMode()"
+            ><i class="fa-solid fa-circle-half-stroke" class="icon">Dark Mode</i
+            ></a
+          >
+        </center>
+      </div>
+      <!--Dark mode-->
+      <!--card-->
+      <section>
+        <!--IMAGE-->
+        <img src="image/WhatsApp_Image_2023-03-03_at_10.58.56-removebg-preview.png" width="" alt="" />
+         <!--IMAGE-->
+         <!--MAIN-->
+        <div class="main">
+          <h1>RIAN <span>PURNAMA</span></h1>
+          <p>I am  <b class="b">|</b><span class="text"></span></p>
+          <div class="link">
+            <ul>
+              <a href="https://www.facebook.com/rianz.purznama"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/rianpurnama76_"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/settings/profile"><i class="fa-brands fa-github"></i></a>
+              <a href="https://api.whatsapp.com/send/?phone=6285624251657&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+            </ul>
+          </div>
+          <!--BTN-->
+          <div class="btn">
+            <button class="btn1"> <i class="fa-solid fa-download"></i><a href="https://drive.google.com/uc?export=download&id=1GYI_yGyQ8t1niTrNQVSN2XAGjMRn0plz">Download CV</a>
+            </button>
+            <button class="btn2"><a href="mailto:prnmarian7@gmail.com">Contact Me</a> </button>
+          </div>
+          <!--BTN-->
+        </div>
+         <!--MAIN-->
+      </section>
+      <!--card-->
+      <!-- footer -->
+     <div class="footer">
+        <p class="footer"><i class="fa-regular fa-copyright"></i>RianPurnama.2023 Allrigths reserved</p>
+      </div>
+      <!-- end footer -->
+    </div>
+  
+
+
+    <!--js EFEK KETIK-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".text", {
+        strings: ["Web Design", "Web Developer", "Thanks You......!"],
+        typeSpeed: 180,
+        loop: true,
+      });
+    </script>
+     <!--js EFEK KETIK-->
+     <!--JS DARK MODE-->
+    <script>
+      let body = document.body;
+
+      function darkMode() {
+        console.log("dark mode di klik");
+        body.classList.toggle("darkm");
+      }
+    </script>
+     <!--JS DARK MODE-->
+  </body>
+</html>
